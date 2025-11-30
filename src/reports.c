@@ -25,5 +25,5 @@ void showTotalAmount(Loan list[], int count) {
     for (int i = 0; i < count; i++) {
         total += list[i].amount;
     }
-    printf("\nTotal Loan Amount Issued: %.2f\n", total);
+    printf("\nTotal Loan Amount Issued: %.2f\n",total);
 }
